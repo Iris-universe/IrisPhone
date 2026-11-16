@@ -1,0 +1,7 @@
+version: 1
+# Must be unique among all apps registered with Apple.
+bundleID: __BUNDLE_ID__
+# Extra Info.plist keys (permissions, display name...), merged into the generated one.
+infoPath: Info.plist
+# Optional app icon: a square 1024x1024 PNG.
+# iconPath: Resources/AppIcon.png

@@ -1,0 +1,17 @@
+{
+  "name": "irisphone",
+  "owner": {
+    "name": "Iris-universe"
+  },
+  "metadata": {
+    "description": "Build iPhone apps on Windows or Linux with Claude Code: no Mac required."
+  },
+  "plugins": [
+    {
+      "name": "irisphone",
+      "source": "./claude-plugin",
+      "description": "iOS development without a Mac: an iOS skill plus the IrisPhone tools (build, install on the iPhone, read logs). Requires the irisphone CLI.",
+      "category": "development"
+    }
+  ]
+}

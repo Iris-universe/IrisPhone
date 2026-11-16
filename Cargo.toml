@@ -1,0 +1,28 @@
+[package]
+name = "irisphone"
+version = "0.1.0"
+edition = "2021"
+description = "Build and install iPhone apps from Windows or Linux, no Mac required. Claude Code ready."
+license = "MIT"
+repository = "https://github.com/Iris-universe/IrisPhone"
+readme = "README.md"
+keywords = ["ios", "iphone", "swift", "windows", "claude"]
+categories = ["command-line-utilities", "development-tools"]
+rust-version = "1.80"
+
+[[bin]]
+name = "irisphone"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true
+codegen-units = 1

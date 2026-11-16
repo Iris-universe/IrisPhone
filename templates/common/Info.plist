@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Name under the icon on the home screen. -->
+	<key>CFBundleDisplayName</key>
+	<string>__DISPLAY_NAME__</string>
+	<!--
+	Permissions: iOS kills the app if it uses the camera, location, photos...
+	without the matching usage description. Examples:
+	<key>NSCameraUsageDescription</key>
+	<string>Take photos for your notes.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Show where you are on the map.</string>
+	-->
+</dict>
+</plist>

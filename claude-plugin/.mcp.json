@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "irisphone": {
+      "command": "irisphone",
+      "args": ["mcp"]
+    }
+  }
+}

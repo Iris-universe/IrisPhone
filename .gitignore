@@ -1,0 +1,7 @@
+/target
+*.xip
+*.ipa
+*.log
+.env
+CLAUDE.local.md
+/legacy

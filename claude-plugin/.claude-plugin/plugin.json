@@ -1,0 +1,12 @@
+{
+  "name": "irisphone",
+  "version": "0.1.0",
+  "description": "Build, install and debug iPhone apps from Windows or Linux, without a Mac. Requires the irisphone CLI (https://github.com/Iris-universe/IrisPhone).",
+  "author": {
+    "name": "Iris-universe"
+  },
+  "homepage": "https://github.com/Iris-universe/IrisPhone",
+  "repository": "https://github.com/Iris-universe/IrisPhone",
+  "license": "MIT",
+  "keywords": ["ios", "iphone", "swift", "swiftui", "windows", "xtool"]
+}
