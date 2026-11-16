@@ -20,7 +20,7 @@ const INSTRUCTIONS: &str = "IrisPhone builds and installs iOS apps from Windows/
 Workflow: irisphone_doctor if unsure the setup works; irisphone_new_app to start; after each code change \
 irisphone_build and fix all errors; irisphone_run to install on the iPhone; irisphone_logs to read print() output. \
 No simulator exists: runtime testing happens on the real device. Read the project's CLAUDE.md for the rules \
-(no Xcode-only features: no #Preview, storyboards, asset catalogs, SwiftData macros). \
+(no Xcode-only features: no storyboards, asset catalogs or SwiftData; #Preview compiles but has no canvas). \
 Logging in (irisphone login) needs a password and a 2FA code: ask the user to run it in their own terminal.";
 
 fn tools() -> Value {
